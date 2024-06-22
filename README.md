@@ -17,32 +17,36 @@ This Streamlit-based application leverages artificial intelligence to provide pe
 
 1. Clone the repository:
     ```bash
-      git clone https://github.com/caprolaliac/Aimore
+    git clone https://github.com/caprolaliac/Aimore
 
 2. Install dependencies:
     ```bash
-      pip install -r requirements.txt
+    pip install -r requirements.txt
+     ```
 
 3. Install and set up Ollama:
-    ```bash
-      chmod +x install_ollama.sh
+   ```bash
+   curl -fsSL https://ollama.com/install.sh > install_ollama.sh
+   ```
+   ```bash
+   chmod +x install_ollama.sh
     ```
     ```bash
-      sudo ./install_ollama.sh
+    sudo ./install_ollama.sh
     ```
     ```bash
-      ollama serve &
+    ollama serve &
     ```
     ```bash
-      ollama pull mistral / ollama pull phi3
+    ollama pull mistral / ollama pull phi3
     ```
 
-4. Set up your TMDb API key in the script.
+5. Set up your TMDb API key in the script.
 
-5. run streamlit app
+6. run streamlit app
 
    ```bash
-      python -m streamlit run app.py
+   python -m streamlit run app.py
    ```
 
   ## Usage
