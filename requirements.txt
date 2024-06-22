@@ -1,0 +1,7 @@
+requests
+streamlit
+langchain
+ctransformers
+langchain_experimental
+huggingface
+ollama
