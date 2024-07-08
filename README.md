@@ -11,7 +11,7 @@ This Streamlit-based application leverages artificial intelligence to provide pe
 - **TMDb Integration**: Fetches additional movie details from The Movie Database API*.
 - **Interactive UI**: Built with Streamlit for a responsive and user-friendly interface.
 
-Implementation shots:
+## Implementation Shots:
 ![image](https://github.com/caprolaliac/Aimore/assets/87370936/9c9e4fb2-7963-46f2-8910-ce111a78a008)
 
 
