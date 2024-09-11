@@ -82,4 +82,4 @@ These logs indicate:
 3. HTTP status 200 means the requests were processed successfully.
 4. The time taken for each request (e.g., 2m10s, 1m11s) shows processing duration.
 
-Long processing times (over 1 minute) are normal for complex tasks like generating movie recommendations
+Long processing times (over 1 minute) are normal for complex tasks like generating movie recommendations with lower device specs like mine. 
